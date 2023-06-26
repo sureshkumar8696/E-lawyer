@@ -1,39 +1,37 @@
-
-form {
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: auto;
-    margin-top: 100px;
-    max-width: 500px;
-    padding: 1rem;
-  }
-  
-  label, input, select {
-    margin: 0.5rem 0;
-  }
-  
-  label {
-    font-weight: bold;
-  }
-  
-  input, select {
-    padding: 0.5rem;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  button[type="submit"] {
-    background-color: #0077cc;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #0066b3;
-  }
-  
+.main-content{
+  display: flex;
+  /* background-color: rgb(200, 222, 241); */
+}
+.c-home{
+  display: grid;
+  justify-content: center;
+  margin: 20px 20px;
+  grid-template-columns: auto auto auto auto;
+  width: 85%;
+}
+.c-profile{
+  border: 1px solid black;
+  height: 400px;
+  width: 300px;
+  margin: 20px 20px;
+  text-align: center;
+  background-color: #839df5;
+  transition: background-color 0.8s ease;
+}
+.c-profile:hover{
+  background-color: rgb(252, 138, 97);
+}
+select{
+  border: 1px solid black;
+}
+.c-profile img{
+  border: 1px solid blanchedalmond;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.category{
+  font-size: 15px;
+  margin: 20px;
+}

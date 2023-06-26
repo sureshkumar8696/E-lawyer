@@ -14,6 +14,9 @@ import ClientHome from "./component/Client/Client_home";
 import Main from './component/Client/Main'
 import Contact from "./pages/Contact";
 import About from "./pages/AboutPage";
+import ClientProfile from "./component/Client/ClientProfile";
+import Client_About from "./component/Client/Client_About";
+import Lawyer_home from "./component/Lawyer/Lawyer_home"
 function App() {
   return (
     <>
@@ -28,7 +31,10 @@ function App() {
           <Route path="/reset" element={<Reset />}></Route>
           <Route path="/option" element={<Choose />}></Route>
           <Route path="/client_home" element={<ClientHome/>}></Route>
+          <Route path="/client_Profile" element={<ClientProfile/>}></Route>
           <Route path="/main" element={<Main/>}></Route>
+          <Route path="/client_about" element={<Client_About/>}></Route>
+          <Route path="/lawyer_home" element={<Lawyer_home/>}></Route>
           <Route
             path="/account"
             element={

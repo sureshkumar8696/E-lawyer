@@ -1,25 +1,26 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
-import { getStorage } from "firebase/storage";
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
+import { ref } from "firebase/storage";
 
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyB26bqXqQEjeMjtZror4A7nGiuAW0yS5gg",
-    authDomain: "e-lawyer-auth.firebaseapp.com",
-    projectId: "e-lawyer-auth",
-    storageBucket: "e-lawyer-auth.appspot.com",
-    messagingSenderId: "493800267839",
-    appId: "1:493800267839:web:fc95187a59ddcfd121d88a",
+    apiKey: "AIzaSyC6HH5Nx1_1bPZAH_N7kDbD-_hz6YZ1Dp8",
+  authDomain: "newe-lawyer.firebaseapp.com",
+  databaseURL: "https://newe-lawyer-default-rtdb.firebaseio.com",
+  projectId: "newe-lawyer",
+  storageBucket: "newe-lawyer.appspot.com",
+  messagingSenderId: "763394332595",
+  appId: "1:763394332595:web:34432b69292a25ccd29dc6"
 };
+
+
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-export const auth = getAuth(app);
-export const db = getFirestore(app);
-export const storage = getStorage(app);
-export default app;
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+const db = firebaseApp.firestore();
+const auth = firebase.auth();
+const provider = new firebase.auth.GoogleAuthProvider();
+// const storage = firebase.storage(); //to store images
+// const storageRef = ref(storage);
+
+export {db,auth, provider };
 

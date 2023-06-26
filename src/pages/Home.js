@@ -44,11 +44,11 @@ function Home() {
           securing the legal representation you need to succeed.
         </p>
       </main>
-        <div className="buttons">
-          <button type="submit" className="--btn --btn-primary --btn-block" onClick={navigateToLogin}>
+        <div className="button-container">
+          <button type="submit" className="btn" onClick={navigateToLogin}>
             Log In
           </button>
-          <button type="submit" className="--btn --btn-primary --btn-block" onClick={navigateToRegister}>
+          <button type="submit" className="btn" onClick={navigateToRegister}>
             Sign Up
           </button>
         </div>

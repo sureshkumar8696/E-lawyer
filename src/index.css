@@ -424,13 +424,34 @@ p {
 }
 
 a {
-  font-size: 1.4rem;
-  color: var(--dark-blue);
+  font-size: 1.5rem;
+  color: black;
   text-decoration: none;
-  transition: all 0.2s;
+  transition: all 0.3s ease-in-out;
 }
 
 a:hover {
-  color: var(--color-dark);
-  font-size: 1.5rem;
+  color: red;
+  /* textrgb(255, 0, 0)coration: underline; */
+  animation: shake 0.9s linear;
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-5px);
+  }
+  40% {
+    transform: translateX(5px);
+  }
+  60% {
+    transform: translateX(-5px);
+  }
+  80% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }

@@ -47,11 +47,13 @@ main p {
     font-weight: bold;
     margin: 0;
   }
-.buttons{
-  text-align: center;
-  width: 120px;
-  margin:auto;
-}
-.--btn{
-  margin: 12px;
-}
+  .button-container {
+    /* margin: auto; */
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+
+  }
+  .btn{
+    width: 30%;
+    margin: 12px 135%;
+  }
