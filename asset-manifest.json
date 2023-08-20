@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sureshkumar8696/E-lawyer/static/css/main.4cd2301e.css",
+    "main.js": "/sureshkumar8696/E-lawyer/static/js/main.6ad83a7d.js",
+    "static/media/about.jpg": "/sureshkumar8696/E-lawyer/static/media/about.0cbf0a1015b24dd539b1.jpg",
+    "static/media/contact1.jpg": "/sureshkumar8696/E-lawyer/static/media/contact1.4f328cf13184a598c866.jpg",
+    "static/media/client_home.jpg": "/sureshkumar8696/E-lawyer/static/media/client_home.0d5232011c7aab25ba84.jpg",
+    "static/media/register.png": "/sureshkumar8696/E-lawyer/static/media/register.c63eced99fcb38972a6c.png",
+    "static/media/forgot.png": "/sureshkumar8696/E-lawyer/static/media/forgot.cfba148d722f088aeddb.png",
+    "static/media/login.png": "/sureshkumar8696/E-lawyer/static/media/login.78ccab5e2cbeadd1d2f2.png",
+    "static/media/loader.gif": "/sureshkumar8696/E-lawyer/static/media/loader.9d11df4bdd0bb34de773.gif",
+    "index.html": "/sureshkumar8696/E-lawyer/index.html",
+    "main.4cd2301e.css.map": "/sureshkumar8696/E-lawyer/static/css/main.4cd2301e.css.map",
+    "main.6ad83a7d.js.map": "/sureshkumar8696/E-lawyer/static/js/main.6ad83a7d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cd2301e.css",
+    "static/js/main.6ad83a7d.js"
+  ]
+}
